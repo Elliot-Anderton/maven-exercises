@@ -11,8 +11,8 @@ public class HelloWorld {
         if (StringUtils.isNumeric(input)) {
             System.out.println("This is a number");
         } else {
-            System.out.println(StringUtils.swapCase(input));
-            System.out.println(StringUtils.reverse(input));
+            System.out.println("Flipped Case: " + StringUtils.swapCase(input));
+            System.out.println("Reversed: " + StringUtils.reverse(input));
         }
     }
 }
